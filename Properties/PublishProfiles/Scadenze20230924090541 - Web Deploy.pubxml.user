@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Questo file viene usato dal processo di pubblicazione/creazione pacchetto del progetto Web. È possibile personalizzare il comportamento del processo
+modificando il file MSBuild. Per altre informazioni su questo argomento, vedere https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYd81tZvvCUKMOivNLn0iBAAAAAACAAAAAAAQZgAAAAEAACAAAABJYUXZQNOQ536IGn9URty0xgqLipY1DBGemtT4mqgWTgAAAAAOgAAAAAIAACAAAAADliLtnlDEXBFxUu8XIANIJEW88PbLxm0ZuDAvhSfnwoAAAAAzyemNI/E5wvNfVXee2yD9+jkVEHAt7Cis5q8WlzGOItc6rpf4u51+YQa6wvlIjSCXcozHvcnDhjtkylpS/9FHgi3tGaWWaIfGRo10MlJ17pRX8PeWHW0Ipi0Pn+FQ4w4JbsN3uhUt7u6dknaBQLjyToT6hR6EaWfiGZjCgo78q0AAAAC4v5uXjdqx7tXgkPfavAvoR7LUmHvZ9z2Id7wd8HEzOr5p0ZyBxNjBTnqMJ7Q2Ll9cpzZwWVKXhCI0qLCM1YyE</EncryptedPassword>
+    <History>True|2023-09-29T10:39:25.1037338Z;False|2023-09-29T12:32:00.4383380+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Data Source=scadenzedb.database.windows.net,1433%3bInitial Catalog=Scadenze_db%3bUser ID=malbasini%3bPassword=wovjiqcohbyj6gytgHK</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

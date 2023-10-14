@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/Scadenzario.jpg",
+      "PackagePath": "staticwebassets/Scadenzario.jpg"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/Upload/.DS_Store",
+      "PackagePath": "staticwebassets/Upload/.DS_Store"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/calendar.ico",
+      "PackagePath": "staticwebassets/calendar.ico"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/Home.jpg",
+      "PackagePath": "staticwebassets/images/Home.jpg"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/Sfondo.jpg",
+      "PackagePath": "staticwebassets/images/Sfondo.jpg"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/facebook.png",
+      "PackagePath": "staticwebassets/images/facebook.png"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/git.png",
+      "PackagePath": "staticwebassets/images/git.png"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/google.png",
+      "PackagePath": "staticwebassets/images/google.png"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/microsoft.png",
+      "PackagePath": "staticwebassets/images/microsoft.png"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/twitter.png",
+      "PackagePath": "staticwebassets/images/twitter.png"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/images/yahoo.png",
+      "PackagePath": "staticwebassets/images/yahoo.png"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/js/Bootstrap/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/js/Bootstrap/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/js/Bootstrap/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/Bootstrap/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/js/Bootstrap/bootstrap.js",
+      "PackagePath": "staticwebassets/js/Bootstrap/bootstrap.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/js/Bootstrap/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/Bootstrap/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/all.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/all.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/all.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/brands.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/brands.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/brands.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/brands.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/fontawesome.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/regular.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/regular.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/regular.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/regular.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/solid.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/solid.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/solid.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/solid.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/svg-with-js.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/v4-shims.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/v4-shims.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/lib/font-awesome/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/font-awesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/lib/font-awesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery-validation/dist/localization/messages_it.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/localization/messages_it.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery/dist/jquery-3.5.1.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery-3.5.1.slim.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/popper/dist/umd/popper.min.js",
+      "PackagePath": "staticwebassets/lib/popper/dist/umd/popper.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/font/summernote.eot",
+      "PackagePath": "staticwebassets/lib/summernote/dist/font/summernote.eot"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/font/summernote.ttf",
+      "PackagePath": "staticwebassets/lib/summernote/dist/font/summernote.ttf"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/font/summernote.woff",
+      "PackagePath": "staticwebassets/lib/summernote/dist/font/summernote.woff"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/font/summernote.woff2",
+      "PackagePath": "staticwebassets/lib/summernote/dist/font/summernote.woff2"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/lang/summernote-it-IT.js",
+      "PackagePath": "staticwebassets/lib/summernote/dist/lang/summernote-it-IT.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/summernote-bs4.min.css",
+      "PackagePath": "staticwebassets/lib/summernote/dist/summernote-bs4.min.css"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/lib/summernote/dist/summernote-bs4.min.js",
+      "PackagePath": "staticwebassets/lib/summernote/dist/summernote-bs4.min.js"
+    },
+    {
+      "Id": "/Users/marcoalbasini/Documents/Software/Scadenzario-azure/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.Scadenze.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.Scadenze.props",
+      "PackagePath": "build\\Scadenze.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.Scadenze.props",
+      "PackagePath": "buildMultiTargeting\\Scadenze.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.Scadenze.props",
+      "PackagePath": "buildTransitive\\Scadenze.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

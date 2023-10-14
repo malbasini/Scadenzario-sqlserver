@@ -1,0 +1,28 @@
+@model BeneficiarioViewModel
+<tr>
+                        @{
+                           string descrizione = Model.Descrizione;
+                           if(descrizione.Length > 100)
+                               descrizione=descrizione.Substring(0,98);
+                        }
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.Beneficiario)
+                        </td>
+                        <td>
+                           <a asp-controller="Beneficiari" asp-action="Edit" asp-route-id="@Model.IDBeneficiario"><p html-sanitize> @descrizione </p></a>
+                        </td>
+                        <td>
+                           @Html.DisplayFor(modelItem => Model.Email)
+                        </td>
+                        <td>
+                           @Html.DisplayFor(modelItem => Model.Telefono)
+                        </td>
+                        <td>
+                           <a href="@Html.DisplayFor(modelItem => Model.SitoWeb)">@Html.DisplayFor(modelItem => Model.SitoWeb)</a>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <a class="btn btn-outline-primary" asp-action="Detail" asp-controller="Beneficiari" asp-route-id = "@Model.IDBeneficiario">Dettaglio</a>
+                            </div>
+                        </td>
+                    </tr>

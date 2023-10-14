@@ -1,0 +1,64 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-09-29T09:22:10.7548627Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-09-29T10:25:50.6192142Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "493fa6ff-4dc7-4439-9ee3-18dc119d43fa"
+    },
+    "mssql1.resourceGroupLocation": {
+      "Name": "mssql1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "eastus"
+    },
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Scadenze20230924090541ResourceGroup"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Scadenze20230924090541ResourceGroup"
+    },
+    "secrets1.resourceGroupLocation": {
+      "Name": "secrets1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "eastus"
+    },
+    "Scadenze20230924090541.resourceGroupLocation": {
+      "Name": "Scadenze20230924090541.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "Scadenze20230924090541.resourceName": {
+      "Name": "Scadenze20230924090541.resourceName",
+      "Type": null,
+      "Value": "Scadenze20230924090541"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "493fa6ff-4dc7-4439-9ee3-18dc119d43fa"
+    },
+    "Scadenze20230924090541.resourceGroupName": {
+      "Name": "Scadenze20230924090541.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Scadenze20230924090541ResourceGroup"
+    },
+    "Scadenze20230924090541.subscriptionId": {
+      "Name": "Scadenze20230924090541.subscriptionId",
+      "Type": "subscription",
+      "Value": "493fa6ff-4dc7-4439-9ee3-18dc119d43fa"
+    }
+  }
+}

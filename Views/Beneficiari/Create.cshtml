@@ -1,0 +1,41 @@
+@model BeneficiarioCreateInputModel
+<br>
+<br>
+    <div class="container">
+          <div class="alert alert-success">
+            <h2 style="text-align: center"><b>@ViewData["Title"]</b></h2>
+        </div>
+  </div>   
+<br>
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div> 
+    <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="Beneficiario"></label>
+                    <input asp-for="Beneficiario" class="form-control" placeholder="Inserisci il beneficiario...." />
+                    <span asp-validation-for="Beneficiario" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Descrizione"></label>
+                    <input asp-for="Descrizione" class="form-control" placeholder="Inserisci una descrizione...."/>
+                    <span asp-validation-for="Descrizione" class="text-danger"></span>
+                </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+           
+        </div> 
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="fas fa-plus-circle"></i> Crea beneficiario</button>
+        </div> 
+         <div class="col-md-4">
+           
+        </div>    
+    </div> 
+</form>
+@section Scripts
+{
+    <partial name="_Validation"></partial>
+}

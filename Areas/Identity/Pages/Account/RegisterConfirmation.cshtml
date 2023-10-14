@@ -1,0 +1,21 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Conferma registrazione";
+}
+
+<h1>@ViewData["Title"]</h1>
+@{
+    if (@Model.DisplayConfirmAccountLink)
+    {
+<p>
+    <a id="confirm-link" href="https://mailtrap.io/">Recarsi al seguente indirizzo per confermare l'account.</a>
+</p>
+    }
+    else
+    {
+<p>
+        Controlla la tua e-mail per confermare il tuo account.
+</p>
+    }
+}

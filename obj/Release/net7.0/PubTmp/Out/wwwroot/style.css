@@ -1,0 +1,45 @@
+html body{
+    min-height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+body>.container>{
+    flex: 1;
+}
+body>footer {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    font-weight: 200;
+}
+
+footer {
+    margin-top: 3em;
+    padding-top: 1em;
+    border-top: 1px solid #ccc;
+    padding-bottom: 2em;
+    text-align: center;
+    color: gray;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+.jumbotron {
+    background-image: url('images/Home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.jumbotron h1 {
+    font-size: 3.5rem;
+}
+
