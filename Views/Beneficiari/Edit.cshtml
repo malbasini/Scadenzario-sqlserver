@@ -18,19 +18,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12" asp-validation-summary="All" class="text-danger"></div>
-        </div>
-        <div class="row">
             <div class="col-md-7">
                 <div class="form-group">
                     <label asp-for="Beneficiario"></label>
-                    <input type="text" class="form-control form-control-lg" asp-for="Beneficiario">
+                    <input type="text" class="form-control" asp-for="Beneficiario">
                     <span asp-validation-for="Beneficiario" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Descrizione"></label>
-                    <textarea asp-for="Descrizione" class="form-control" id="Description" rows="18"></textarea>
-                    <span asp-validation-for="Descrizione" class="text-danger" ></span>
+                        <label asp-for="Descrizione"></label>
+                        <span class="input-group-text">With textarea</span>
+                        <textarea asp-for="Descrizione" class="form-control" aria-label="With textarea" id="Description" rows="18"></textarea>
+                        <span asp-validation-for="Descrizione" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <input asp-for="IDBeneficiario" class="form-control" style="visibility: hidden;">
@@ -41,7 +39,7 @@
                 <aside>
                     <div class="form-group">
                         <label asp-for="Email"></label>
-                        <input type="email" asp-for="Email" class="form-control">
+                        <input type="text" asp-for="Email" class="form-control">
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                     <div class="form-group">
@@ -50,9 +48,11 @@
                         <span asp-validation-for="Telefono" class="text-danger" ></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SitoWeb"></label>
-                        <input type="text" asp-for="SitoWeb" class="form-control">
-                        <span asp-validation-for="SitoWeb" class="text-danger"></span>
+                        
+                            <label asp-for="SitoWeb"></label>
+                            <span class="input-group-text" id="basic-addon3">https://example.com/</span>
+                            <input type="text" asp-for="SitoWeb" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                            <span asp-validation-for="SitoWeb" class="text-danger"></span>
                     </div>
                 </aside>
             </div>

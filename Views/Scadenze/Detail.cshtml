@@ -20,51 +20,75 @@
     </div>
     <br>
     <br>
-    <div class="row">
-        <div class="col-md-9">
-                <div class="form-group">
-                    <label asp-for="Beneficiario"></label>:&nbsp
-                    <b>@Model.Beneficiario</b>
-                </div>
-                <div class="form-group">
-                    <label asp-for="DataScadenza"></label>:&nbsp
-                    <b>@Model.DataScadenza.ToString("dd/MM/yyyy")</b>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Importo"></label>:&nbsp
-                    <b>@Model.Importo</b>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <aside>
-                    <div class="form-group">
-                        @if (Model.GiorniRitardo < 0)
-                        {
-                            Model.GiorniRitardo = @Math.Abs((int)Model.GiorniRitardo);
-                            <label asp-for="GiorniRitardo"></label>
-                            <font style="color: red;">:&nbsp @Model.GiorniRitardo</font>
-                        }
-                        else
-                        {
-                            <label asp-for="GiorniRitardo"></label>
-                            <font style="color:black;">:&nbsp @Model.GiorniRitardo</font>
-                        }
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Sollecito"></label>:&nbsp
-                         @Html.DisplayFor(model => model.Sollecito)
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="DataPagamento"></label>:&nbsp
-                        @if(Model.DataPagamento.HasValue)
-                        {
-                             <b>@Model.DataPagamento.Value.ToString("dd/MM/yyyy")</b>
-                        }
-                    </div>
-                </aside>
-            </div>
-    </div>
 </section>
+  <div class="row">
+      <div class="col-md-6 mb-3 mb-sm-0">
+          <div class="card text-bg-warning mb-3">
+              <div class="card-header">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                  </svg>
+                  Dettaglio
+              </div>
+              <div class="card-body">
+                  <div class="input-group">
+                      <label asp-for="Beneficiario"></label>:&nbsp
+                      <b>@Model.Beneficiario</b>
+                  </div>
+                  <div class="input-group">
+                      <label asp-for="DataScadenza"></label>:&nbsp
+                      <b>@Model.DataScadenza.ToString("dd/MM/yyyy")</b>
+                  </div>
+                  <div class="input-group">
+                      <label asp-for="Importo"></label>:&nbsp;
+                      <b><font style="color: red;">&nbsp; @Model.Importo</font></b>
+                  </div>
+              </div>
+              <div class="card-footer">
+                  Footer
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card text-bg-warning mb-3">
+              <div class="card-header">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                  </svg>
+                  Dettaglio
+              </div>
+              <div class="card-body">
+                  <div class="input-group">
+                      @if (Model.GiorniRitardo < 0)
+                      {
+                          Model.GiorniRitardo = @Math.Abs((int)Model.GiorniRitardo);
+                          <label asp-for="GiorniRitardo"></label>
+                          <font style="color: red;">:&nbsp; @Model.GiorniRitardo</font>
+                      }
+                      else
+                      {
+                          <label asp-for="GiorniRitardo"></label>
+                          <font style="color:black;">:&nbsp; @Model.GiorniRitardo</font>
+                      }
+                  </div>
+                  <div class="input-group">
+                      <label asp-for="Sollecito"></label>:&nbsp
+                      @Html.DisplayFor(model => model.Sollecito)
+                  </div>
+                  <div class="input-group">
+                      <label asp-for="DataPagamento"></label>:&nbsp
+                      @if (Model.DataPagamento.HasValue)
+                      {
+                          <b>@Model.DataPagamento.Value.ToString("dd/MM/yyyy")</b>
+                      }
+                  </div>
+              </div>
+              <div class="card-footer">
+                  Footer
+              </div>
+          </div>
+      </div>
+  </div>
 <br>
 <br>
 @if(Model.Ricevute != null && Model.Ricevute.Count > 0)

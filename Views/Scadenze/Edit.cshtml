@@ -38,8 +38,12 @@
                 <br/>
                 <div class="form-group">
                     <label asp-for="Importo"></label>
-                    <input asp-for="Importo" class="form-control form-control-block">
-                    <span asp-validation-for="Importo" class="text-danger"></span>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">€</span>
+                        <input type="text" asp-for="Importo" class="form-control" aria-label="Amount (to the nearest Euro)">
+                        <span class="input-group-text">,00</span>
+                        <span asp-validation-for="Importo" class="text-danger"></span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">

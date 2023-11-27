@@ -21,32 +21,55 @@
     <br>
     <br>
     <div class="row">
-        <div class="col-md-7">
-                <div class="form-group">
-                    <label asp-for="Beneficiario"></label>:&nbsp
-                    <b>@Model.Beneficiario</b>
-                </div>
-
-                <div class="form-group">
-                    <label asp-for="Descrizione"></label>
-                    <p html-sanitize>@Model.Descrizione</p>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <aside>
-                    <div class="form-group">
-                        <label asp-for="Email"></label>:&nbsp
-                        <b>@Model.Email</b>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Telefono"></label>:&nbsp
-                         <b>@Model.Telefono</b>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="SitoWeb"></label>:&nbsp
-                         <b>@Model.SitoWeb</b>
-                    </div>
-                </aside>
-            </div>
-    </div>
+          <div class="col-md-6 mb-3 mb-sm-0">
+              <div class="card text-bg-warning mb-3">
+                  <div class="card-header">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                      </svg>
+                      Dettaglio
+                  </div>
+                  <div class="card-body">
+                      <div class="input-group">
+                          <label asp-for="Beneficiario"></label>:&nbsp
+                          <b>@Model.Beneficiario</b>
+                      </div>
+                      <div class="input-group">
+                          <label asp-for="Descrizione"></label>:&nbsp
+                          <p html-sanitize>@Model.Descrizione</p>
+                      </div>
+                  </div>
+                  <div class="card-footer">
+                      Footer
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="card text-bg-warning mb-3">
+                  <div class="card-header">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                      </svg>
+                      Dettaglio
+                  </div>
+                  <div class="card-body">
+                      <div class="input-group">
+                          <label asp-for="Email"></label>:&nbsp
+                          <b>@Model.Email</b>
+                      </div>
+                      <div class="input-group">
+                          <label asp-for="Telefono"></label>:&nbsp
+                          <b>@Model.Telefono</b>
+                      </div>
+                      <div class="input-group">
+                          <label asp-for="SitoWeb"></label>:&nbsp
+                          <a href=@Model.SitoWeb class="card-link">@Model.SitoWeb</a>
+                      </div>
+                  </div>
+                  <div class="card-footer">
+                      Footer
+                  </div>
+              </div>
+          </div>
+      </div>
 </section>
